@@ -114,12 +114,14 @@ nav {
   height: 570px;
   background-color: #f4f4f4;
   padding: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 .shopglasses {
   background-image: url(https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 300px;
+  width: 310px;
   height: 460px;
   padding: 40px 30px;
   display: flex;
@@ -143,5 +145,280 @@ nav {
     padding: 16px 0px;
     font-size: 14px;
     font-weight: 600;
+  }
+}
+.shopcosmetics {
+  background-image: url(https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 460px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #777b82;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  button {
+    width: 170px;
+    background-color: #222529;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 0px;
+  }
+}
+
+.shopsummersale {
+  background-image: url(https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 460px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #777b82;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  button {
+    width: 170px;
+    background-color: white;
+    border: none;
+    color: 000px;
+    padding: 16px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+}
+.shopbags {
+  background-image: url(https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 460px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #777b82;
+
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+  button {
+    width: 170px;
+    background-color: #222529;
+    border: none;
+    color: #fff;
+    padding: 16px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.popularProducts {
+  margin: 40px;
+  h2 {
+    color: #302e2a;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .populars {
+    display: flex;
+    flex-wrap: wrap;
+    .product {
+      width: 200px;
+      margin: 0 10px;
+      margin-bottom: 40px;
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.7;
+        color: #777b82;
+      }
+      h3 {
+        font-size: 15px;
+        font-weight: normal;
+      }
+      .stars {
+        color: #777;
+        font-size: 11px;
+      }
+      del {
+        color: #a79f9f;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.info {
+  display: flex;
+  margin: 50px;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    padding: 0 30px;
+    i {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      color: #302e2a;
+    }
+    h5 {
+      font-weight: normal;
+      color: #777b82;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #a79f9f;
+      font-size: 13px;
+      line-height: 2;
+    }
+  }
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  .left {
+    h5 {
+      font-size: 14px;
+    }
+    p {
+      color: #a79f9f;
+      font-size: 13px;
+    }
+  }
+  .center {
+    input {
+      padding: 14px 10px;
+      width: 300px;
+      border: none;
+      color: #777;
+      background-color: #f4f4f4;
+      font-size: 12px;
+    }
+    button {
+      background-color: #26272a;
+      color: white;
+      padding: 14px 10px;
+      border: none;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+  .right {
+    color: #302e2a;
+    font-size: 20px;
+  }
+}
+.footer {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  .contactinfo {
+    width: 480px;
+
+    .contactinfomain {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        width: 220px;
+        margin-right: 10px;
+        h4 {
+          font-size: 14px;
+          font-weight: normal;
+        }
+        a {
+          font-size: 14px;
+          text-decoration: none;
+          color: #777b82;
+        }
+      }
+    }
+    .contactinfohead {
+      margin-bottom: 10px;
+    }
+  }
+  .myaccount {
+    h4 {
+      margin-bottom: 20px;
+    }
+    div {
+      display: flex;
+      ul {
+        list-style: none;
+        font-size: 13px;
+        color: #777b82;
+        margin-right: 80px;
+        line-height: 2;
+      }
+    }
+  }
+  .mainfeatures {
+    h4 {
+      margin-bottom: 20px;
+    }
+    div {
+      display: flex;
+      ul {
+        list-style: none;
+        font-size: 13px;
+        color: #777b82;
+        margin-right: 80px;
+        line-height: 2;
+      }
+    }
   }
 }
